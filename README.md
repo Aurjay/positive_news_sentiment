@@ -1,4 +1,4 @@
-# Positive News Project
+# Project POSNEWS
 
 This project is a full-stack application consisting of a frontend built with **Next.js** and **React** and a backend built with **Flask**. The backend integrates with the **Azure Text Analytics API** for sentiment analysis to filter out positive and neutral news articles fetched from an external news API, such as **NewsAPI**.
 
