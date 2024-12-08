@@ -59,9 +59,7 @@ The backend is a Flask application that fetches news articles from an external A
 
 To run the Flask server, use the following command:
 
-```sh
 python app.py
-
 ---
 
 - The server will start on http://127.0.0.1:5000.
