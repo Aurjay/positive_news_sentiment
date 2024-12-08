@@ -27,6 +27,8 @@ The **Positive News Project** consists of a **backend** that fetches news articl
 
 The backend is a Flask application that fetches news articles from an external API and performs sentiment analysis using Azure Text Analytics.
 
+---
+
 ### Setup
 
 1. **Clone the repository:**
@@ -51,18 +53,27 @@ The backend is a Flask application that fetches news articles from an external A
     LANGUAGE_ENDPOINT=your_language_endpoint
     NEWSAPI_KEY=your_newsapi_key
 
+---
+
 ### Running the Server
 
 To run the Flask server, use the following command:
 
+```sh
 python app.py
-The server will start on http://127.0.0.1:5000.
+
+---
+
+- The server will start on http://127.0.0.1:5000.
 
 **API Endpoints**
-GET /fetch_news: Fetches news articles and performs sentiment analysis to filter out positive and neutral news articles.
 
-Frontend
-The frontend is a Next.js application that displays the news articles fetched by the backend.
+- GET /fetch_news: Fetches news articles and performs sentiment analysis to filter out positive and neutral news articles.
+
+---
+
+**Frontend:**
+- The frontend is a Next.js application that displays the news articles fetched by the backend.
 
 **Clone the repository:**
 
@@ -81,6 +92,8 @@ Running the Development Server
 npm run dev
 This will start the development server at http://localhost:3000.
 
+---
+
 **Backend Project Structure**
 
 
@@ -90,6 +103,7 @@ backend/
 ├── .env                    # Environment variables (for Azure and NewsAPI keys)
 ├── utils.py                # Helper functions for fetching news and performing sentiment analysis
 
+---
 
 **Frontend Project Structure**
 
@@ -102,6 +116,7 @@ frontend/
 ├── .env.local              # Local environment variables (e.g., backend URL)
 ├── package.json            # Node.js dependencies and scripts
 
+---
 
 **Dependencies:**
 Backend (Flask)
@@ -113,3 +128,5 @@ Frontend (Next.js)
 React
 Next.js
 Axios (for making HTTP requests to the backend)
+
+---
