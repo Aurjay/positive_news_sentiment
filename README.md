@@ -64,7 +64,7 @@ python app.py
 ```
 ---
 
-- The server will start on http://127.0.0.1:5000.
+The server will start on http://127.0.0.1:5000.
 
 **API Endpoints**
 ```
@@ -73,7 +73,7 @@ python app.py
 ---
 
 **Frontend:**
-- The frontend is a Next.js application that displays the news articles fetched by the backend.
+The frontend is a Next.js application that displays the news articles fetched by the backend.
 
 **Clone the repository:**
 ```
