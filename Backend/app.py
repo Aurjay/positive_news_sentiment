@@ -9,11 +9,11 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Replace with your own API key
-API_KEY = '89a4590d745f4728bd02aa3d0921d0fe'
+API_KEY = ''
 NEWS_API_URL = 'https://newsapi.org/v2/everything'
 
 # This example requires environment variables named "LANGUAGE_KEY" and "LANGUAGE_ENDPOINT"
-language_key = '5xoOZpuUlnEPo4cpXk6ow2jS5E1YSAvDEFbecpA3QOVZbe61cHnQJQQJ99ALACYeBjFXJ3w3AAAaACOGKV0N'
+language_key = ''
 language_endpoint = 'https://nonsense.cognitiveservices.azure.com/'
 
 # Authenticate the client using your key and endpoint 
